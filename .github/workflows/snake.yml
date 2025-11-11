@@ -20,7 +20,18 @@ jobs:
         with:
           github_user_name: Pabl0vargas
           # Genera un archivo llamado snake.svg en la raíz del repo
-          outputs: snake.svg 
+          outputs: snake-no-header.svg
+          # Color de la serpiente 
+          color_snake: '#0000FF'
+          
+          # Colores de las cuadrículas de contribución (los 4 niveles de "verde")
+          color_dots: '#9BE9A8,#40C463,#30A14E,#216E39'
+          
+          # Color de fondo 
+          color_bg: '#0D1117'
+          
+          # Color de las líneas de la cuadrícula vacía
+          color_grid: '#161B22'
       
       # Sube el archivo snake.svg de vuelta al repositorio
       - name: Push snake.svg
