@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&pause=1000&color=25D366&center=true&vCenter=true&width=600&lines=¡Hi there!+I'm+Juan+Pablo+Vargas" alt="Typing SVG" />
 </p>
 
-# 💫 About Me:
+# 🧠 About Me:
  🚀 I'm a Software Developer deeply immersed in the Java and Spring Boot ecosystem. I am incredibly passionate about the challenge of building backend applications that are not only robust and scalable, but also incredibly efficient.<br><br>My true motivation is taking complex problems and transforming them into elegant software solutions that deliver real value. I just love seeing code come alive and solve a problem!
 
 
