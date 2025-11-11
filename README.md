@@ -11,7 +11,7 @@
 
 # 💻 Tech Stack:
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Gifs/master/gears.gif" width="25"> Backend
+### <img src="https://raw.githubusercontent.com/iuricode/readme-template/main/assets/gear.gif" width="25"> Backend
 <p>
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=plastic&logo=spring&logoColor=white" alt="Spring"/>
@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white" alt="C++"/>
 </p>
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Gifs/master/programming.gif" width="25"> Frontend
+### <img src="https://raw.githubusercontent.com/iuricode/readme-template/main/assets/programming.gif" width="25"> Frontend
 <p>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -28,7 +28,7 @@
   <img src="https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=plastic&logo=Thymeleaf&logoColor=white" alt="Thymeleaf"/>
 </p>
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Gifs/master/database.gif" width="25"> Bases de Datos
+### <img src="https://raw.githubusercontent.com/iuricode/readme-template/main/assets/database.gif" width="25"> Database
 <p>
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white" alt="Postgres"/>
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white" alt="MySQL"/>
@@ -39,7 +39,7 @@
   <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=plastic&logo=Sequelize&logoColor=white" alt="Sequelize"/>
 </p>
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Gifs/master/cloud.gif" width="25"> DevOps & Cloud
+### <img src="https://raw.githubusercontent.com/iuricode/readme-template/main/assets/cloud.gif" width="25"> DevOps & Cloud
 <p>
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white" alt="AWS"/>
@@ -51,7 +51,7 @@
   <img src="https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white" alt="Render"/>
 </p>
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Gifs/master/art.gif" width="25"> Design
+### <img src="https://raw.githubusercontent.com/iuricode/readme-template/main/assets/design.gif" width="25"> Design
 <p>
   <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white" alt="Figma"/>
   <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white" alt="Canva"/>
@@ -66,7 +66,4 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pabl0vargas&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Pablo's Top Languages"/>
 </p>
 
-### 🔝 Top Contributed Repo
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Pabl0vargas&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Pablo's Top Contributed Repos"/>
-</p>
+
