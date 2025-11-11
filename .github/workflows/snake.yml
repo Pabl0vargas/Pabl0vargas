@@ -19,25 +19,26 @@ jobs:
         id: snake-gif
         with:
           github_user_name: Pabl0vargas
-          # Genera un archivo llamado snake.svg en la raíz del repo
+          # Genera un archivo llamado snake-no-header.svg
           outputs: snake-no-header.svg
-          # Color de la serpiente 
-          color_snake: '#0000FF'
-          
-          # Colores de las cuadrículas de contribución (los 4 niveles de "verde")
-          color_dots: '#9BE9A8,#40C463,#30A14E,#216E39'
-          
-          # Color de fondo 
-          color_bg: '#0D1117'
-          
-          # Color de las líneas de la cuadrícula vacía
+          # Color de la serpiente           
+          color_snake: '#0000FF'                    
+          # Colores de las cuadrículas de contribución
+          color_dots: '#9BE9A8,#40C463,#30A14E,#216E39'                    
+          # Color de fondo           
+          color_bg: '#0D1117'                    
+          # Color de las líneas de la cuadrícula vacía          
           color_grid: '#161B22'
-      
-      # Sube el archivo snake.svg de vuelta al repositorio
-      - name: Push snake.svg
+            
+      # Sube el archivo snake-no-header.svg de vuelta al repositorio
+      - name: Push snake animation
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
-          git add snake.svg
-          git commit -m "chore: generate snake.svg" || exit 0
+          
+          # --- ¡AQUÍ ESTABA EL ERROR! ---
+          # Debe ser el mismo nombre de archivo que en "outputs:"
+          git add snake-no-header.svg
+          
+          git commit -m "chore: generate snake-no-header.svg" || exit 0
           git push
