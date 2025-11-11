@@ -19,8 +19,8 @@ jobs:
         id: snake-gif
         with:
           github_user_name: Pabl0vargas
-          # Genera un archivo llamado snake-no-header.svg
-          outputs: snake-no-header.svg
+          
+          outputs: snake_v2.svg
           # Color de la serpiente           
           color_snake: '#0000FF'                    
           # Colores de las cuadrículas de contribución
@@ -37,7 +37,7 @@ jobs:
           git config --global user.email "action@github.com"
           
 
-          git add snake-no-header.svg
+          git add snake_v2.svg
           
-          git commit -m "chore: generate snake-no-header.svg" || exit 0
+          git commit -m "chore: generate snake_v2.svg" || exit 0
           git push
