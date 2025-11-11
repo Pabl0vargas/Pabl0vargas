@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&pause=1000&color=25D366&center=true&vCenter=true&width=600&lines=¡Hi there!+I'm+Juan+Pablo+Vargas" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.vercel.app/api?font=Fira+Code&weight=700&pause=1000&color=25D366&center=true&vCenter=true&width=600&lines=¡Hola!+Soy+Juan+Pablo+Vargas" alt="Typing SVG" />
 </p>
 
 # 🧠 About Me:
