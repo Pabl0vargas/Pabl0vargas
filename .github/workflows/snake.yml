@@ -1,11 +1,8 @@
 name: Generate Snake Animation
 
 on:
-  # Ejecutar automáticamente cada 12 horas
   schedule:
     - cron: "0 */12 * * *"
-  
-  # Permite ejecutarlo manualmente desde la pestaña Actions
   workflow_dispatch:
 
 jobs:
@@ -14,30 +11,26 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-     
       - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: Pabl0vargas
           
-          outputs: snake_v2.svg
-          # Color de la serpiente           
+          outputs: snake-no-header.svg
+          
+       
           color_snake: '#0000FF'                    
-          # Colores de las cuadrículas de contribución
           color_dots: '#9BE9A8,#40C463,#30A14E,#216E39'                    
-          # Color de fondo           
           color_bg: '#0D1117'                    
-          # Color de las líneas de la cuadrícula vacía          
           color_grid: '#161B22'
             
-      
       - name: Push snake animation
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
           
-
-          git add snake_v2.svg
+          # 3. Nos aseguramos de subir el archivo con el nombre correcto
+          git add snake-no-header.svg 
           
-          git commit -m "chore: generate snake_v2.svg" || exit 0
+          git commit -m "chore: generate snake-no-header.svg" || exit 0
           git push
