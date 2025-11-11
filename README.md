@@ -82,7 +82,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pabl0vargas&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Pablo's Top Languages"/>
 
 <br/>
-<img src="https://raw.githubusercontent.com/Pabl0vargas/Pabl0vargas/main/snake-no-header.svg" alt="Snake animation"/>
+<img src="https://raw.githubusercontent.com/Pabl0vargas/Pabl0vargas/main/snake-no-header.svg?v=2" alt="Snake animation"/>
 
 </p>
 
