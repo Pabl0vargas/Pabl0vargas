@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Genera el archivo snake.svg
+     
       - uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -30,14 +30,13 @@ jobs:
           # Color de las líneas de la cuadrícula vacía          
           color_grid: '#161B22'
             
-      # Sube el archivo snake-no-header.svg de vuelta al repositorio
+      
       - name: Push snake animation
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
           
-          # --- ¡AQUÍ ESTABA EL ERROR! ---
-          # Debe ser el mismo nombre de archivo que en "outputs:"
+
           git add snake-no-header.svg
           
           git commit -m "chore: generate snake-no-header.svg" || exit 0
